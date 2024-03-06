@@ -1,0 +1,47 @@
+*{
+    border: border-box;
+}
+div{
+    border: 2px solid black;
+    height: 22rem;
+    width: 13rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+input{
+    width: 90%;
+    margin: 5px 2.5px 0px 5px;
+    border: none;
+    height: 2rem;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+    background-color: black;
+    color: white;
+}
+button{
+    background-color: rgb(38, 33, 33);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 2px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    
+}
+.sign{
+    background-color: rgb(238, 216, 46);
+    font-weight: 800;
+    font-size: larger;
+}
+.ll{
+    margin-bottom: 5px;
+}
+i{
+    height: 50%;
+    
+    }

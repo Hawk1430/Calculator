@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Console Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>Console Calculator</h1>
+    </header>
+
+    <div>
+        <input id="displayArea" placeholder="0"></p>
+        
+        <p>
+            <button class="number" onclick="dispalyCalculation('1');">1</button>
+            <button class="number" onclick="dispalyCalculation('2');">2</button>
+            <button class="number" onclick="dispalyCalculation('3');">3</button>
+            <button class="sign" onclick="dispalyCalculation('+');">+</button>
+        </p>
+        <p>
+            <button class="number" onclick="dispalyCalculation('4');">4</button>
+            <button class="number" onclick="dispalyCalculation('5');">5</button>
+            <button class="number" onclick="dispalyCalculation('6');">6</button>
+            <button class="sign" onclick="dispalyCalculation('-');">-</button>
+        </p>
+        <p>
+            <button class="number" onclick="dispalyCalculation('7');">7</button>
+            <button class="number" onclick="dispalyCalculation('8');">8</button>
+            <button class="number" onclick="dispalyCalculation('9');">9</button>
+            <button class="sign" onclick="dispalyCalculation('*');">*</button>
+            
+        </p>
+        <p>
+            <button class="number" onclick="dispalyCalculation('0');">0</button>
+            <button class="number" onclick="dispalyCalculation('.');">.</button>
+            <button class="number" onclick="dispalyCalculation('equal')" >=</button>
+            <button class="sign" onclick="dispalyCalculation('/');">/</button>
+        </p>
+        <p>
+            <button class="number ll" onclick="dispalyCalculation(`(`);">(</button>
+            <button class="number ll" onclick="dispalyCalculation(`)`);">)</button>
+            <button class="number ll" onclick="calculation = localStorage.setItem('calculation',calculation); dispalyCalculation('AC');  ">Clr</button>
+            <button style="font-size:24px" class="number material-icons" onclick="dispalyCalculation(`delete`);"><i class="material-icons">backspace</i></button>
+        </p>
+    </div>
+
+    <script src="./script.js">  
+    </script>
+</body>
+</html>
